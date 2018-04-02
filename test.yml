@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  remote_user: jijeesh
+  become: yes
+  roles:
+    - docker
